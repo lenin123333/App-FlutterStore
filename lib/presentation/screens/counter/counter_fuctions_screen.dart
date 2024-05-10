@@ -71,6 +71,8 @@ class _CounterFunctionScreen extends State<CounterFunctionScreen> {
   }
 }
 
+//Creacion de un boton dinamico al cual nosotros le mandamos el metood que tendra
+//Asi tenemos un boton dinamico en el cual podeos deirle el icono que tendra
 class CustomButton extends StatelessWidget {
   final IconData icon;
   final VoidCallback? onPressed;
